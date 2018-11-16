@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Turpināt spēli</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}" href="../../css/main.css"/>
+</head>
+<body>
+
+<div class="headerTomatoes">
+    <h1>MAĢISKIE TOMĀTI</h1>
+</div>
+
+<div class="secondHeader">
+    <h3 class="boxed">TURPINĀT SPĒLI</h3>
+</div>
+
+<form class="enterGameIdForm" action="#" th:action="@{/continue}" method="post">
+    <div class="form-group row">
+        <label for="gameId" class="col-sm-3 col-sm-offset-1 col-form-label">Ievadi savas spēles ID:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="gameId" name="gameId" autocomplete="off"/>
+        </div>
+        <input id="submitId" class="buttons" type="submit" value="SĀKT SPĒLI"/>
+    </div>
+</form>
+
+<div class="backButton">
+    <a class="buttons" href="/" role="button">ATPAKAĻ UZ SĀKUMU</a>
+</div>
+
+
+</body>
+</html>

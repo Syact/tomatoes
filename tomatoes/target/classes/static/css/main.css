@@ -1,0 +1,96 @@
+body {
+    background-color: #CCF7BB;
+    padding: 50px;
+}
+
+.headerTomatoes {
+    color: #B51515;
+    text-align: center;
+    margin: auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.secondHeader {
+    color: #28760A;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.boxed {
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    width: 20%;
+    height: 50px;
+    margin: auto;
+    background: #9AF577;
+    background-clip: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.buttons {
+    background-color: #38A60D;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.backButton {
+    padding: 30px;
+}
+
+.enterNameForm {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.enterGameIdForm {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 20px;
+}
+
+label {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    text-align:right;
+}
+
+.dropdown select {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #38A60D;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.default.option-default {
+    background-color: #5CBD37;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}
+
+img{
+    max-width: 26px;
+    padding: 2px;
+}

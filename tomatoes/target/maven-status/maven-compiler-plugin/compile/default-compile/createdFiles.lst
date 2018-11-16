@@ -1,0 +1,5 @@
+lv/venta/bluma/controller/GameController.class
+lv/venta/bluma/dao/GameDifficultyDao.class
+lv/venta/bluma/domain/Game.class
+lv/venta/bluma/TomatoesApplication.class
+lv/venta/bluma/domain/GameDifficulty.class
